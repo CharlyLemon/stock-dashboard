@@ -1,0 +1,13 @@
+bash
+
+cat << 'EOF' > /mnt/user-data/outputs/requirements.txt
+streamlit==1.43.0
+requests==2.31.0
+plotly==5.20.0
+pandas==2.2.1
+EOF
+echo "done"
+Output
+
+Input validation errors occurred:
+description: Field required
